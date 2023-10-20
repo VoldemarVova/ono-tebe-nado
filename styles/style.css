@@ -70,6 +70,10 @@ body {
     padding: 155px 50px 50px 50px;
 }
 
+.cover__title__word {
+    display: block;
+}
+
 .letter-spacing-extended {
     letter-spacing: 60px;
 }
