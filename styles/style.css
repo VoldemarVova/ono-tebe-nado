@@ -196,7 +196,7 @@ body {
 .about {
     display: grid;
     grid-template-columns: 430px 1fr;
-    margin: 0 50px;
+    margin: 0 50px 180px 50px;
     column-gap: 25px;
 }
 
@@ -239,3 +239,32 @@ body {
 .about__text-no-margin-bottom {
     margin-bottom: 0;
 }
+
+.footer {
+    margin: 0 50px 90px 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 18px;
+}
+
+.footer__menu-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    column-gap: 32px;
+    list-style: none;
+    text-underline-offset: 4px;
+}
+
+.footer__menu-link_active {
+    text-decoration: none;
+}
+
+.footer__social-list-item {
+    display: flex;
+    margin-left: 207px;
+    width: 48px;
+    height: 48px;
+    gap: 48px;
+}
+
